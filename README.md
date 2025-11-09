@@ -31,8 +31,11 @@ Yung-Hui Li,
 ## Setup
 ### Environments
 1. Install PyTorch and Torchvision referring to https://pytorch.org/get-started/locally/.
-2. Install MMDetection referring to https://mmdetection.readthedocs.io/en/latest/get_started.html#installation.
-3. Install the rest of the requirements with pip.
+   ```
+   pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --extra-index-url https://download.pytorch.org/whl/cu118
+   ```
+3. Install MMDetection referring to https://mmdetection.readthedocs.io/en/latest/get_started.html#installation.
+4. Install the rest of the requirements with pip.
 
     ```bash
     pip install -r requirements.txt
